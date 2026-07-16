@@ -1,4 +1,4 @@
-import numPy as np
+import numpy as np
 
 
 

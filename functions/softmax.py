@@ -1,4 +1,4 @@
-import numPy as np
+import numpy as np
 
 def softmax(x):
     n = len(x)
