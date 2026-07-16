@@ -58,4 +58,23 @@ High attention.
 
 Small value
 ↓
-Ignore."""
+Ignore.
+
+This is why Cosine Similarity exists
+Cosine similarity removes the effect of magnitude.
+That larger magnitude increases the dot product.
+
+
+In attention why dont we use cosine similarity
+So attention can express both
+QKᵀ / √dₖ
+alignment (direction)
+confidence/strength (magnitude)
+Cosine similarity throws away the second piece of information.
+But why divide with √dₖ
+The probabilities become extremely "peaky."
+That causes:
+unstable gradients, slower learning, one token dominating everything
+
+
+"""
