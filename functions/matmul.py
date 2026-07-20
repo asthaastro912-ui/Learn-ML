@@ -31,8 +31,9 @@ def matmul(A, B):
             for k in range(m):
                 sum+= A[i][k]*B[k][j]
             result[i][j]= sum
-
     return np.array(result)
+## if you return result type(result) -> class 'list' -> we cant do .shape of it
+## now if do typr(result) -> class numpy.ndarray -> we can do many things on it 
 
 a = [1, 2, 3]
 b = [4, 5, 6]
